@@ -1,0 +1,10 @@
+
+<h1 *ngIf="name=='Shweta'; then ifPart else elsePart">Hello From shweta </h1>
+<ng-template #ifPart>
+    <h2>Name is Match</h2>
+</ng-template>
+<ng-template #elsePart>
+    <h2>Name is not Match</h2>
+</ng-template>
+<br>
+

@@ -1,0 +1,15 @@
+<h1 style="color: crimson;">Page shows ngif components</h1>
+
+<h1 *ngIf="show; else elsePart">It display else  part </h1>
+
+<ng-template #elsePart>
+    <h2>This is else part, We are using ng-template</h2>
+</ng-template>
+
+<h1>You'r in elsePart </h1>
+
+<h1 *ngIf="hide; else elsePart">It hids else part</h1>
+
+<ng-template #elsePart>
+<h2>This is else part, We are using ng-template</h2>
+</ng-template>

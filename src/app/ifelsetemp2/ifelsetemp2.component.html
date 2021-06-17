@@ -1,0 +1,7 @@
+<h1 *ngIf="show; then ifPart else elsePart">Hello </h1>
+<ng-template #ifPart>
+    <h2>This is If</h2>
+</ng-template>
+<ng-template #elsePart>
+    <h2>this else</h2>
+</ng-template>
